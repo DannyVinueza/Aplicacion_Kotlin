@@ -55,7 +55,7 @@ class DashboardFragment : Fragment() {
         }
 
         // Configurar Spinner con opciones y manejar la selección
-        val opciones = arrayOf("Seleccionar integrante...","Danny Vinueza", "Joel Tates", "José Panchi")
+        val opciones = arrayOf("Seleccionar integrante...","Danny Vinueza", "Joel Tates", "José Galarza")
         val adapter = ArrayAdapter(requireContext(), R.layout.simple_spinner_item, opciones)
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
         spinner.adapter = adapter

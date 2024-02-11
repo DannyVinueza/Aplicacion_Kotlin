@@ -3,4 +3,6 @@
     <string name="title_home">Inicio</string>
     <string name="title_dashboard">Equipo</string>
     <string name="title_notifications">Población</string>
+    <string name="title_phones">Teléfono</string>
+    <string name="title_toast">Toast</string>
 </resources>

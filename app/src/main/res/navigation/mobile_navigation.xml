@@ -22,4 +22,17 @@
         android:name="com.aplicacion.kotlin.ui.notifications.NotificationsFragment"
         android:label="@string/title_notifications"
         tools:layout="@layout/fragment_notifications" />
+
+    <fragment
+        android:id="@+id/navigation_phone"
+        android:name="com.aplicacion.kotlin.ui.phone.PhoneFragment"
+        android:label="@string/title_phones"
+        tools:layout="@layout/fragment_phone" />
+
+    <fragment
+        android:id="@+id/navigation_toast"
+        android:name="com.aplicacion.kotlin.ui.toast.ToastFragment"
+        android:label="@string/title_toast"
+        tools:layout="@layout/fragment_toast"
+        />
 </navigation>

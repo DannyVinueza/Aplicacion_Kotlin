@@ -1,13 +1,13 @@
-package com.aplicacion.kotlin.ui.home
+package com.aplicacion.kotlin.ui.toast
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
-class HomeViewModel : ViewModel() {
+class ToastViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "Bienvenido a la practica\nSobre aplicaciones moviles con:\n\nKOTLIN"
+
     }
     val text: LiveData<String> = _text
 }

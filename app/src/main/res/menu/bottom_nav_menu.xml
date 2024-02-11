@@ -16,4 +16,13 @@
         android:icon="@android:drawable/ic_dialog_map"
         android:title="@string/title_notifications" />
 
+    <item
+        android:id="@+id/navigation_phone"
+        android:icon="@android:drawable/sym_action_call"
+        android:title="@string/title_phones" />
+    <item
+        android:id="@id/navigation_toast"
+        android:icon="@android:drawable/ic_dialog_info"
+        android:title="@string/title_toast"
+        />
 </menu>
